@@ -9,6 +9,4 @@ During the Flutter setup, I encountered challenges with configuring environment 
 
 ### Laboratory 1A: Discussion
 
-In this activity, I enhanced my Facebook Replication application with three improvements. I used the `Placeholder` widget and `hasImage` variable to display image areas dynamically, `CircleAvatar` to show user profile pictures, and `TextButton.icon` for the Like, Comment, and Share buttons.
-
-Through this activity, I learned how to use Flutter widgets, organize source code, and improve a social media interface.
+In this activity, I enhanced my Facebook Replication application with three improvements. I used the Placeholder widget and hasImage variable to display image areas dynamically, CircleAvatar to show user profile pictures, and TextButton.icon for the Like, Comment, and Share buttons. Through this activity, I learned how to use Flutter widgets, organize source code, and improve a social media interface.
