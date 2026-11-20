@@ -81,14 +81,22 @@ class NewsFeedCard extends StatelessWidget {
 
             SizedBox(height: 10.h),
 
-            // ENHANCEMENT 1: IMAGE PLACEHOLDER
-            if (hasImage)
-              SizedBox(
-                width: double.infinity,
-                height: 250.h,
-                child: const Placeholder(),
-              ),
-
+              // ENHANCEMENT 1: DISPLAY NEWSFEED IMAGE
+                if (hasImage)
+                  SizedBox(
+                    width: double.infinity,
+                    height: 250.h,
+                    child: Image.asset(
+                      'assets/images/owl.jpg',
+                      width: double.infinity,
+                      fit: BoxFit.cover,
+                      errorBuilder: (context, error, stackTrace) {
+                        return const Center(
+                          child: Text('Image not found'),
+                        );
+                      },
+                    ),
+                  ),
             SizedBox(height: 5.h),
 
             // LIKE, COMMENT AND SHARE BUTTONS
