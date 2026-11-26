@@ -10,3 +10,11 @@ During the Flutter setup, I encountered challenges with configuring environment 
 ### Laboratory 1A: Discussion
 
 In this activity, I enhanced my Facebook Replication application with three improvements. I used the Placeholder widget and hasImage variable to display image areas dynamically, CircleAvatar to show user profile pictures, and TextButton.icon for the Like, Comment, and Share buttons. Through this activity, I learned how to use Flutter widgets, organize source code, and improve a social media interface.
+
+### Laboratory 2A: Discussion
+
+In this activity, I enhanced my Flutter social media application by adding 10 posts and 20 notifications. Each post has its own username, description, date, and number of likes. I also used reusable widgets to make displaying posts and notifications easier.
+
+I implemented the five enhancements by adding a dynamic AppBar title, additional navigation icons, changing the application name to Garcera Social, and updating the color palette.
+
+One challenge I encountered was connecting the notification screen to the bottom navigation. I solved it by adding the notification screen to the PageView. Overall, this activity helped me improve my understanding of Flutter widgets, navigation, and reusable components.
