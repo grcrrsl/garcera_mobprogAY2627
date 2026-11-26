@@ -17,7 +17,7 @@ class GarceraFacebook extends StatelessWidget {
       builder: (_, child) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          title: 'Facebook Replication',
+          title: 'Garcera Social',
           initialRoute: '/home',
           routes: {
             '/newsfeed': (context) => const NewsFeedScreen(),
